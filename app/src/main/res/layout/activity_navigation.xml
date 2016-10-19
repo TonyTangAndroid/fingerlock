@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/tv_status"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-light"
+        android:gravity="center"
+        android:textSize="18sp"
+        tools:ignore="UnusedAttribute"
+        tools:text="@string/status_initializing" />
+
+    <android.support.percent.PercentRelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/btn_verify_fingerprint"
+            android:layout_height="56dp"
+            android:layout_marginTop="16dp"
+            android:onClick="verify"
+            android:text="@string/verify_fingerprint"
+            app:layout_widthPercent="75%" />
+    </android.support.percent.PercentRelativeLayout>
+
+    <android.support.percent.PercentRelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+        <Button
+            android:layout_height="56dp"
+            android:layout_marginTop="16dp"
+            android:onClick="verifyOriginal"
+            android:text="@string/verify_fingerprint_original"
+            app:layout_widthPercent="75%" />
+    </android.support.percent.PercentRelativeLayout>
+
+
+</LinearLayout>

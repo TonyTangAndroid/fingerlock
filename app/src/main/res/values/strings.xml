@@ -2,6 +2,7 @@
     <string name="app_name">FingerLock</string>
     <string name="status_initializing">Initializing…</string>
     <string name="use_fingerprint">Use fingerprint…</string>
+    <string name="verify_fingerprint">Verify Fingerprint</string>
     <string name="use_dialog">Use dialog</string>
     <string name="stop_scanning">Stop scanning</string>
     <string name="start_scanning">Start scanning</string>
@@ -12,4 +13,9 @@
     <string name="status_error">Error: %1$s</string>
     <string name="dialog_authenticated">Authenticated using dialog</string>
     <string name="dialog_cancelled">Dialog cancelled</string>
+    <string name="verified_successfully">Verified Successfully</string>
+    <string name="verified_failed">Verified Failed</string>
+    <string name="verified_cancelled">Verification cancelled</string>
+    <string name="verify_fingerprint_original">Try another way</string>
+
 </resources>

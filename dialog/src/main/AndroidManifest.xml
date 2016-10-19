@@ -1,5 +1,13 @@
-<manifest package="com.aitorvs.android.fingerlock.dialog">
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.aitorvs.android.fingerlock.dialog">
 
-    <application/>
+    <application>
+
+        <activity
+            android:name="com.aitorvs.android.fingerlock.FingerprintVerificationActivity"
+            android:label="@string/sign_in"
+            android:theme="@android:style/Theme.Dialog" />
+
+    </application>
 
 </manifest>
